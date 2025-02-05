@@ -11,11 +11,6 @@
         "src": "/(.*)",
         "dest": "/"
       }
-    ],
-    "build": {
-      "env": {
-        "NODE_OPTIONS": "--force"
-      }
-    }
+    ]
   }
   
