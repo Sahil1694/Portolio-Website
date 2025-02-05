@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Paypal from "./company/Paypal.png";
-import Timechain from "./company/timechain.png";
+import Timechain from "./company/Timechain.png";
 import Gitfund from "./Gitfund.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
