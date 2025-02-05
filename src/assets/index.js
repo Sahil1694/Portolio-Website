@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -27,12 +27,22 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Paypal from "./company/Paypal.png";
 import Timechain from "./company/timechain.png";
-import carrent from "./carrent.png";
+import Gitfund from "./Gitfund.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import fincore from "./fincore.jpg";
+import easyconnect from "./easyconnect.jpg";
+import Multiserver from "./Multiserver.png";
+import print from "./print.jpg";
+import skillcanvas from "./skillcanvas.jpg";
 
 export {
   logo,
+  fincore,
+  easyconnect,
+  print,
+  skillcanvas,
+  Multiserver,
   backend,
   creator,
   mobile,
@@ -57,7 +67,7 @@ export {
   shopify,
   Paypal,
   Timechain,
-  carrent,
+  Gitfund,
   jobit,
   tripguide,
 };

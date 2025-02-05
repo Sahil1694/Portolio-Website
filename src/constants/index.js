@@ -1,5 +1,10 @@
 import {
   mobile,
+  fincore,
+  easyconnect,
+  print,
+  Multiserver,
+  skillcanvas,
   backend,
   creator,
   web,
@@ -19,7 +24,7 @@ import {
   Paypal,
   Timechain,
   shopify,
-  carrent,
+  Gitfund,
   jobit,
   tripguide,
   threejs,
@@ -146,28 +151,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Your dedication, hard work, and eagerness to learn have been truly inspiring Sahil . Proud of your accomplishments and contributions to our Paypal SRE team, excited to see what you will achieve in the future.All the very best!",
+    name: "Deepa Elumalai",
+    designation: "Engineering Manager",
+    company: "Paypal",
+    image: "https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Sahil’s journey is a testament to the power of skill-building and perseverance. Securing an off-campus internship at PayPal in his 2nd year is no small feat—his dedication and hard work set an example for aspiring engineers. No matter where you come from, if you focus on learning and growth, wonders happen!",
+    name: "Shradha Khapra",
+    designation: "Co-Founder",
+    company: "Apna College",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHGNAxeyJhZbQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1685972237021?e=1744243200&v=beta&t=dR2GYZKm6YvDkefNLFnRuYmIfkSlS3-PV0uK3HY9hhY",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
@@ -201,7 +206,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Gitfund,
     source_code_link: "https://github.com/",
   },
   {
@@ -242,7 +247,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: fincore,
     source_code_link: "https://github.com/",
   },
   {
@@ -275,7 +280,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: easyconnect,
     source_code_link: "https://github.com/",
   },
   {
@@ -304,7 +309,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: skillcanvas,
     source_code_link: "https://github.com/",
   },
   {
@@ -325,7 +330,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Multiserver,
     source_code_link: "https://github.com/",
   },
 
@@ -351,7 +356,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: print,
     source_code_link: "https://github.com/",
   },
   
