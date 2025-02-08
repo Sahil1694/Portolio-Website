@@ -7,8 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import Spring from "./tech/Spring.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import java from "./tech/java.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -52,6 +54,8 @@ export {
   close,
   css,
   docker,
+  Spring,
+  java,
   figma,
   git,
   html,

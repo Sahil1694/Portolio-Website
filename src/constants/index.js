@@ -20,6 +20,8 @@ import {
   git,
   figma,
   docker,
+  Spring,
+  java,
   meta,
   Paypal,
   Timechain,
@@ -51,20 +53,29 @@ const services = [
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: mobile,
   },
   {
-    title: "DevOps",
+    title: "DevOps Enthusiast",
     icon: backend,
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Development",
     icon: creator,
   },
 ];
 
 const technologies = [
+
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Spring Boot",
+    icon: Spring,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -77,10 +88,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -101,18 +112,18 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -129,7 +140,6 @@ const experiences = [
     points: [
       "Developed and implemented JUnit test cases, involved in functional testing and bug fixes, achieving 90% code coverage and ensuring robustness and reliability of software releases, impacting millions of users.",
       "Resolved high-priority critical bugs/Live issues in multiple applications, reducing downtime by 20%, ensuring uninterrupted operation, and successfully deployed them to production.",
-      "Led the implementation of SNOW Polling integration for fetching and analyzing SNOW tickets, streamlining issue tracking andenabling proactive incident management.",
       "Collaborated with cross-functional teams during Agile practices, including daily standups, sprint planning, and sprint demos,contributing to 30% faster product delivery.",
     ],
   },
@@ -179,7 +189,7 @@ const projects = [
   {
     name: "GIT FUND",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project is a voting-based decentralized crowdfunding platform designed to support social impact projects. Built using React for the frontend and Solidity for the backend, it leverages DAO mechanisms to ensure secure, tamper-proof, and democratic fund allocation.",
     tags: [
       {
         name: "Web3",
@@ -207,12 +217,12 @@ const projects = [
       },
     ],
     image: Gitfund,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sahil1694/GITFUND.git",
   },
   {
     name: "FinCore-Micoreservices",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project is a comprehensive guide to building, deploying, and managing microservices using Spring Boot, Docker, Kubernetes, and cloud-native technologies. It covers key concepts such as service discovery, routing, resilience, observability, security, and event-driven architecture using RabbitMQ and Kafka. Additionally, it explores container orchestration with Kubernetes, Helm, and Istio, ensuring scalable and resilient microservices deployments.",
     tags: [
       {
         name: "Spring Boot",
@@ -248,12 +258,12 @@ const projects = [
       },
     ],
     image: fincore,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sahil1694/FinCore-Microservices.git",
   },
   {
     name: "EasyConnect: Cloud-Based Contact Manager",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "EasyConnect is a cloud-based contact management solution designed to help users efficiently manage their contacts with seamless integration of cloud storage, email services, and user authentication via social login. This platform is feature-rich, secure, and offers both dark and light themes for an enhanced user experience.",
     tags: [
       {
         name: "Spring Boot",
@@ -281,12 +291,12 @@ const projects = [
       },
     ],
     image: easyconnect,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sahil1694/EasyConnect.git",
   },
   {
     name: "SkillCanvas",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "SkillCanvas is an e-learning platform that allows users to purchase and manage online courses, featuring videos, lectures, and PDFs. Built using the MERN stack, it provides secure authentication, payment processing via Razorpay, and a dynamic admin dashboard for managing courses, users, and transactions. The backend ensures seamless functionality with Express.js, MongoDB, JWT authentication, and Cloudinary for media storage, creating a scalable and efficient learning experience.",
     tags: [
       {
         name: "Node.js",
@@ -310,12 +320,12 @@ const projects = [
       },
     ],
     image: skillcanvas,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sahil1694/SkillCanvas-MERN-.git",
   },
   {
     name: "Multithreaded-WebServer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project is a multithreaded web server built using Java, designed to handle multiple client requests concurrently. It efficiently manages HTTP request processing, static file serving, and connection handling using multithreading, ensuring high performance and responsiveness. The server provides a lightweight yet scalable solution for web applications.",
     tags: [
       {
         name: "Core Java",
@@ -331,13 +341,13 @@ const projects = [
       },
     ],
     image: Multiserver,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sahil1694/Multithreaded-WebServer.git",
   },
 
   {
     name: "Printing Automation System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A fully automated campus printing service. Users can upload files via a web portal, make payments through PhonePe, and have documents printed automatically. Features include shop registration, print queue management, and auto file deletion post-printing.",
     tags: [
       {
         name: "MERN",
@@ -357,7 +367,7 @@ const projects = [
       },
     ],
     image: print,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sahil1694/Nirmman-Hackathon.git",
   },
   
 ];
